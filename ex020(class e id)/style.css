@@ -1,0 +1,46 @@
+@charset 'UTF-8';
+
+
+/*
+
+em HTML é id em CSS é #
+
+em HTML é class em CSS é .
+
+*/
+
+body{
+    background-color: rgb(200, 255, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: green;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+/*poderia ter colocado apenas  #principal em vez de h1#principal dessa forma todos com id principal, independente da tag seriam afetados, porém NÃO SE PODE USAR UM MESMO id EM OUTRA TAG NO MESMO DOCUMENTO.*/
+h2{
+    color: rgb(5, 46, 5);
+}
+
+.básico{
+    background-color: red;
+}
+h2.médio{
+    background-color: yellow;
+}
+.full{
+    background-color: green;
+
+}
+
+
+.destaque{
+    color: purple;
+}
+/*as configurações de um id sobrepõe as de uma class*/

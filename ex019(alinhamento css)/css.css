@@ -1,0 +1,17 @@
+body{
+    font: normal 16px Arial, Verdana, Serif
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: right;
+}
+
+p{
+    text-align: Justify;
+    text-indent: 30px;
+    /*o cod acima serve para identação, comum no inicio de um parágrafo*/
+}
